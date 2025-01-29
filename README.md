@@ -15,6 +15,8 @@
 
 Implemented by [Hakaze Cho](https://www.hakaze-c.com/), the primary contributor of the paper.
 
+Some reloaded version of Hidden Calibration can be found in [StaICC](https://github.com/hc495/StaICC/blob/dc9100bb0a2738847bee5c671022377f7a7cdd46/prefabricate_inference/standard_calibration.py#L137) or [ICL_Circuit](https://github.com/hc495/ICL_Circuit/blob/master/Experiments/Exp2_Centroid_Classifier.ipynb).
+
 ## Overview
 
 ### Abstract
