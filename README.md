@@ -55,3 +55,27 @@ conda activate hidden_calibration
 You need to ensure that your working directory is set to the root directory of the project, i.e., the same directory as `README.md`, even if you open a Jupyter notebook from the `Experiments` folder.
 
 We provide a default `os.chdir()` method in every notebook, you should use it to move the working directory to the root directory.
+
+## Experiments
+
+We use Jupyter notebooks in the `Experiments` folder to implement all the experiments descirbed in the main body, we index these notebooks here with the corresponding result figures/tables in the paper, and leave the detailed experiment instructions in each notebook.
+
+1. [Exp1_Main_result.ipynb](https://github.com/hc495/Hidden_Calibration/blob/master/Experiments/Exp1_Main_result.ipynb): The code for the main experiments of the paper: test the performance of Hidden Calibration and other methods on the in-context learning task.
+
+2. [Exp2_Analysis1_Overlap.ipynb](https://github.com/hc495/Hidden_Calibration/blob/master/Experiments/Exp2_Analysis1_Overlap.ipynb): The source code for the analysis in Sec. 5.1 and Sec. 5.2 (a part) of the paper. Mainly to calculate the inter-category overlap and intra-category variance.
+
+3. [Exp3_Analysis2_Inter_Category_Distance.ipynb](https://github.com/hc495/Hidden_Calibration/blob/master/Experiments/Exp3_Analysis2_Inter_Category_Distance.ipynb): The source code for the analysis in Sec. 5.2 (a part) of the paper. Mainly to calculate the inter-category distance.
+
+## Citation
+
+If you find this work useful for your research, please cite [our paper](https://openreview.net/forum?id=xizpnYNvQq):
+
+```
+@inproceedings{cho2025token,
+  title={Token-based Decision Criteria Are Suboptimal in In-context Learning},
+  author={Cho, Hakaze and Sakai, Yoshihiro and Kato, Mariko and Tanaka, Kenshiro and Ishii, Akira and Inoue, Naoya},
+  booktitle={Proceedings of the 2025 Annual Conference of the Nations of the Americas Chapter of the ACL},
+  url={https://arxiv.org/abs/2406.16535},
+  year={2025}
+}
+```
