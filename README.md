@@ -68,7 +68,7 @@ We use Jupyter notebooks in the `Experiments` folder to implement all the experi
 
 ## Citation
 
-If you find this work useful for your research, please cite [our paper](https://openreview.net/forum?id=xizpnYNvQq):
+If you find this work useful for your research, please cite [our paper](https://arxiv.org/abs/2406.16535):
 
 ```
 @inproceedings{cho2025token,
