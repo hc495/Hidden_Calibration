@@ -25,7 +25,10 @@ Some reloaded version of Hidden Calibration can be found in [StaICC](https://git
 
 ### Summary figure
 
-![Summary figure](https://s2.loli.net/2025/01/29/JSEDulIhvVgenL5.png)
+
+<p align="center">
+<img src="https://s2.loli.net/2025/01/29/JSEDulIhvVgenL5.png" width="60%" />
+</p>
 
 In an ICL diagram, **A.** The prompt of ICL consists of a combination of demonstrations and a query. LMs encode the prompt into the last hidden state $h$, then **B.** Previous works use the un-embedding vectors of the label tokens ($E^U_+$ and $E^U_-$) to decode the $h$ to prediction $\hat{y}$, then calibrations are used to adjust the predicted logits. **C.** Our work uses the calibration dataset to calculate centroids ($\overline{h}_+$ and $\overline{h}_-$) to decode the $h$.
 
